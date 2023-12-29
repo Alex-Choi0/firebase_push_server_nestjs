@@ -73,8 +73,8 @@ export class PushNotiService {
             message: {
               token: dto.to,
               notification: {
-                title: 'Breaking News',
-                body: 'New news story available.',
+                title: dto.title,
+                body: dto.body,
               },
             },
           },
